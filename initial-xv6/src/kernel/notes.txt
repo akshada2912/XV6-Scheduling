@@ -1,0 +1,4 @@
+- readcount variable incremented : if num=5, read.
+- made new fields in struct proc, initialized in allproc, changed in usertrap, set in sigalarm 
+- syscall add everything to sysfile.c, syscall.c, user.h, usys.pl, proc.h
+- alarm: edit proc struct, add trap to usertrap an usertrapret, alloc in allocproc in proc.c
